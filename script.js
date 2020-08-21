@@ -112,7 +112,6 @@ function displayCityInfo() {
     var humidity = $("<div>").text( "Humidity: " + response.main.humidity);
     var description = $("<div>").text( "Description:" + response.weather[0].description);
     var wind = $("<div>").text("Wind Speed: " + response.wind.speed);
-    
     var lat = response.coord.lat;
     var lon = response.coord.lon;
     var APIKey = "166a433c57516f51dfab1f7edaed8413"; 
