@@ -2,6 +2,8 @@
 var cities = [];
 init();
 
+console.log(cities)
+
 function renderButtons() {
   $("#buttons-view").empty()
   // Deletes the citys prior to adding new citys
